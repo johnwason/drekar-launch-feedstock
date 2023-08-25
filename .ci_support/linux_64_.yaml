@@ -1,8 +1,7 @@
 cdt_name:
 - cos6
 channel_sources:
-- conda-forge
-- wasontech
+- wasontech,conda-forge
 channel_targets:
 - wasontech main
 docker_image:
