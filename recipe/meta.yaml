@@ -10,7 +10,7 @@ source:
   git_rev: {{ version }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
@@ -44,7 +44,7 @@ about:
   home: https://github.com/johnwason/drekar-launch
   license: Apache-2.0
   license_file: LICENSE.txt
-  summary: 
+  summary: A simple launcher for Robotics applications
 
 extra:
   recipe-maintainers:
