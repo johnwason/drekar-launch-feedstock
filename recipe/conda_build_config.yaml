@@ -1,0 +1,5 @@
+channel_sources:
+  - conda-forge
+  - wasontech
+channel_targets:
+  - wasontech main
